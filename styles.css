@@ -1,0 +1,47 @@
+body{
+   background: #2b5876;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+
+.titulo-h1{
+   color:black;
+   font-family: 'open sans';
+   text-align: center;
+}
+
+.form-email{
+   background-color:aqua;
+   width: 250px;
+   height: 500px;
+   position: absolute;
+   left: 550px;
+   border-color: black;
+   border-style: solid;
+   border-radius: 15px;
+}
+
+#input-email{
+   left: 30px;
+   top: 10px;
+   position: absolute;
+}
+
+#submit-form{
+   position: absolute;
+   left: 95px;
+   top: 40px;
+}
+
+.texto-extra-form{
+   font-family: arial;
+   position: relative;
+   left: 53px;
+   top: 100px;
+
+}
+
+@media (max-width: 828px) {
+ 
+}
