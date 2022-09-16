@@ -43,5 +43,37 @@ body{
 }
 
 @media (max-width: 828px) {
- 
+   body{
+      background-color: #4e4376; 
+   }
+   .form-email{
+      background-color:aqua;
+      width: 250px;
+      height: 500px;
+      position: absolute;
+      left: 100px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 15px;
+   }
+   
+   #input-email{
+      left: 30px;
+      top: 10px;
+      position: absolute;
+   }
+   
+   #submit-form{
+      position: absolute;
+      left: 95px;
+      top: 40px;
+   }
+   
+   .texto-extra-form{
+      font-family: arial;
+      position: relative;
+      left: 53px;
+      top: 100px;
+   
+   }
 }
